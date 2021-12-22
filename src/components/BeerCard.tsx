@@ -1,7 +1,7 @@
 import { Beer } from "../types/Beer";
 
 interface BeerProps {
-  wineData: Beer
+  beerData: Beer
 }
 
 export const BeerCard = ({ beerData }: BeerProps) => {
